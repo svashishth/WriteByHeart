@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _3_KavitaDilSe.Services
+namespace _1_KavitaDilSe.Entities.Models
 {
-    public class Class1
+    public class CreationEditHistoryModel
     {
     }
 }
