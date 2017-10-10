@@ -5,6 +5,9 @@ using System.Data.Entity;
 
 namespace _2_KavitaDilSe.Repository
 {
+    /// <summary>
+    /// Class is responsible for intial values to be inserted in db tables
+    /// </summary>
     public class CustomDatabaseInitializer : DropCreateDatabaseIfModelChanges<KavitaDilSeDbContext>
     {
         protected override void Seed(KavitaDilSeDbContext context)
@@ -23,6 +26,7 @@ namespace _2_KavitaDilSe.Repository
                     TimeStamp =DateTime.Now
                 },
             };
+
             context.Set<UserMasterModel>().AddRange(dataUserMaster);
 
             var dataCreationTypeMaster = new List<CreationTypeMasterModel>

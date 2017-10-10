@@ -47,6 +47,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Base\IRepositoryBase.cs" />
+    <Compile Include="Base\RepositoryBase.cs" />
     <Compile Include="CustomDatabaseInitializer.cs" />
     <Compile Include="IKavitaDilSeDbContext.cs" />
     <Compile Include="KavitaDilSeDbContext.cs" />
@@ -61,6 +63,10 @@
       <Project>{e027de58-a149-484d-9a8c-73639fc5faa3}</Project>
       <Name>1_KavitaDilSe.Entities</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Implementation\" />
+    <Folder Include="Interfaces\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

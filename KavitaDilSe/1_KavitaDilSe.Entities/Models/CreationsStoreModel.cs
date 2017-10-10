@@ -14,6 +14,8 @@ namespace _1_KavitaDilSe.Entities.Models
 
         public CreationTypeMasterModel CreationTypeId { get; set; }
 
+        public string CreationContent { get; set; }
+
         public string UserStamp { get; set; }
 
         public DateTime TimeStamp { get; set; }

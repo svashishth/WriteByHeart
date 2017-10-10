@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace _2_KavitaDilSe.Repository
 {
-    interface IKavitaDilSeDbContext : IDisposable
+    public interface IKavitaDilSeDbContext : IDisposable
     {
         DbSet<TEntity> Set<TEntity>() where TEntity : class;
 

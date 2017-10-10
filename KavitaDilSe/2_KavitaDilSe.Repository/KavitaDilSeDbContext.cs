@@ -17,6 +17,8 @@ namespace _2_KavitaDilSe.Repository
 
         public DbSet<CreationsStoreModel> CreationStore { get; set; }
 
+        public DbSet<CreationEditHistoryModel> EditHistory { get; set; }
+
         //public DbSet<CreationEditHistoryModel> CreationEditHistory { get; set; }
 
         public KavitaDilSeDbContext() : base("Name=DbConnectionString")

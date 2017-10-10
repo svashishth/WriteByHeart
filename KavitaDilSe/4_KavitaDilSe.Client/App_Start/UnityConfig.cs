@@ -4,6 +4,9 @@ using Unity.Mvc5;
 
 namespace _4_KavitaDilSe.Client
 {
+    /// <summary>
+    /// Specifies the Unity configuration for the main container.
+    /// </summary>
     public static class UnityConfig
     {
         public static void RegisterComponents()
