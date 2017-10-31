@@ -30,6 +30,12 @@ namespace _1_KavitaDilSe.Entities.Mapping
                                     .HasMaxLength(100)
                                     .IsUnicode(false);
 
+            Property(x => x.Password).HasColumnName(@"Password")
+                                    .HasColumnType("varchar")
+                                    .IsRequired()
+                                    .HasMaxLength(100)
+                                    .IsUnicode(false);
+
             Property(x => x.EmailId).HasColumnName(@"EmailId")
                                     .HasColumnType("varchar")
                                     .IsRequired()

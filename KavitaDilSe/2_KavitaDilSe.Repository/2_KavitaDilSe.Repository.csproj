@@ -51,6 +51,7 @@
     <Compile Include="Base\RepositoryBase.cs" />
     <Compile Include="CustomDatabaseInitializer.cs" />
     <Compile Include="IKavitaDilSeDbContext.cs" />
+    <Compile Include="Interfaces\IUserRepository.cs" />
     <Compile Include="KavitaDilSeDbContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -66,7 +67,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Implementation\" />
-    <Folder Include="Interfaces\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

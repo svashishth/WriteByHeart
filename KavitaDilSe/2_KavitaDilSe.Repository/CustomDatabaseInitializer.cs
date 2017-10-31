@@ -18,6 +18,7 @@ namespace _2_KavitaDilSe.Repository
                 {
                     Id =1,
                     UserName ="svashishth",
+                    Password="123Password",
                     EmailId ="vashishth.sachin89@gmail.com",
                     FirstName ="Sachin",
                     LastName ="Vashishth",
