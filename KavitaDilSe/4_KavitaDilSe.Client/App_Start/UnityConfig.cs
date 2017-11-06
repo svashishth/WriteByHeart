@@ -6,6 +6,7 @@ namespace _4_KavitaDilSe.Client
 {
     /// <summary>
     /// Specifies the Unity configuration for the main container.
+    /// Dependency of injection
     /// </summary>
     public static class UnityConfig
     {
